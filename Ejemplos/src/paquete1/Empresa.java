@@ -54,7 +54,7 @@ public class Empresa {
                     edificios[i].obtenerNombre().toUpperCase(),
                     edificios[i].obtenerCosto());
         }
-        cadena = String.format("%sTotal de inmuebles: %.0f",
+        cadena = String.format("%sTotal de inmuebles: %.0f\n",
                 cadena,
                 costoBienesInmuebles);
         return cadena;
