@@ -14,16 +14,16 @@ public class Ejecutor {
 
         // Crear una arreglo de 4 elementos de tipo Edificio
         Edificio edf1 = new Edificio("Edificio Central");
-        edf1.establecerCostos(10000);
+        edf1.establecerCostos(20000);
 
         Edificio edf2 = new Edificio("Edificio Sur");
-        edf2.establecerCostos(20000);
+        edf2.establecerCostos(30000);
 
         Edificio edf3 = new Edificio("Edificio Norte");
-        edf3.establecerCostos(30000);
+        edf3.establecerCostos(10000);
 
         Edificio edf4 = new Edificio("Edificio Secundario");
-        edf4.establecerCostos(20000);
+        edf4.establecerCostos(5000);
         
         Edificio[] edificios = {edf1, edf2, edf3, edf4};
         Vehiculo v1 = new Vehiculo ("Auto", "LBB0011", 10000);

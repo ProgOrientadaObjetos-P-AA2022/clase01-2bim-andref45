@@ -86,8 +86,8 @@ public class Empresa {
                     edificios[i].obtenerCosto());
         }
         cadena = String.format("%sTotal de inmuebles: %.0f\n"
-                + "Lista de Vehículos:\n", cadena,
-                nombre);
+                + "\nLista de Vehículos:\n", cadena,
+                costoBienesInmuebles);
         for (int i = 0; i < vehiculos.length; i++) {
             cadena = String.format("%s%d. %s, %s (%.0f)\n",
                     cadena,
@@ -97,7 +97,7 @@ public class Empresa {
                     vehiculos[i].obtenerValor());
         }
         cadena = String.format("%sTotal de inmuebles: %.0f\n"
-                + "\nTotal bienes: %0.f\n",
+                + "\nTotal bienes: %.0f\n",
                 cadena,
                 costoVehiculos, costoTotalBienes);
         
