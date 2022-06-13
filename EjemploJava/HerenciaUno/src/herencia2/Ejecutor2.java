@@ -1,6 +1,7 @@
 package herencia2;
 
 import herencia1.EstudianteDistancia;
+import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -11,6 +12,8 @@ public class Ejecutor2 {
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
+
         EstudianteDistancia est = new EstudianteDistancia();
 
         System.out.println("Ingrese el nombre del estudiante:");
