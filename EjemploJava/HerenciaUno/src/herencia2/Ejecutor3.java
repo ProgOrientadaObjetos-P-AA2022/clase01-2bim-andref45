@@ -12,27 +12,7 @@ public class Ejecutor3 {
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        /*
-        En el método **main**, se debe permitir ingresar objetos 
-        de tipo Estudiante Distancia y Estudiante Presencial. 
-        Uno a la vez. Si el usuario ingresa 1, se debe crear un 
-        Estudiante Distancia por teclado; si ingresa 2, se debe crear un 
-        Estudiante Presencial. Los datos de entrada serán ingresados por 
-        teclado.
 
-        Restricciones:
-        * En el código solo debe usar por una sola ocasión la siguiente 
-        sentencias
-        ```
-            nombres = entrada.nextLine()
-            apellido = entrada.nextLine()
-            cedula = entrada.nextLine()
-            edad = entrada.nextInt()
-        ```
-        * Si el usuario ingresa algo diferente de 1 o 2; el programa debe 
-        presentar un mensaje que diga: "Error, opción no válida."
-        
-         */
         System.out.println("Ingrese 1 para ingresar un Estudiante Distancia:\n"
                 + "Ingrese 2 para ingresar un Estudiante Presencial:");
         int op = entrada.nextInt();
