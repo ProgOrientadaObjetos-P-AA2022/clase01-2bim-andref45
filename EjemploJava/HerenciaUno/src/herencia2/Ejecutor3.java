@@ -13,8 +13,8 @@ public class Ejecutor3 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("Ingrese 1 para ingresar un Estudiante Distancia:\n"
-                + "Ingrese 2 para ingresar un Estudiante Presencial:");
+        System.out.println("Escriba 1 para ingresar un Estudiante Distancia:\n"
+                + "Escriba 2 para ingresar un Estudiante Presencial:");
         int op = entrada.nextInt();
         entrada.nextLine();
         EstudianteDistancia estD = new EstudianteDistancia();
